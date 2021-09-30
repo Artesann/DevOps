@@ -1,4 +1,4 @@
-1. Файл node-exporter.service
+1. Файл node-exporter.service в файле `/etc/default/node-exporter` указано `ARGS=--web.listen-address=0.0.0.0:9111`
 2. Файл basic_metrics.txt
 3. Файл netdata.png
 4. В выводе команды нашел такую строчку `[    3.455610] systemd[1]: Detected virtualization oracle.` systemd-detect-virt detects execution in a virtualized environment.

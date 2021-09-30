@@ -1,12 +1,10 @@
 [Unit]
 Description=Service for collecting and sending statistic
-After=network.target
 
 [Service]
-EnvironmentFile=-/etc/default/node-exporter
-ExecStart=/home/vagrant/node_exporter-1.2.2.linux-amd64/node_exporter
-KillMode=process
-Restart=on-failure
+Restart=always
+EnvironmentFile=/etc/default/node-exporter
+ExecStart=/opt/node-exporter $ARGS
 
 [Install]
 WantedBy=multy-user.target
