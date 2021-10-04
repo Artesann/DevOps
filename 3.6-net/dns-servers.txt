@@ -1,0 +1,4 @@
+dns.google.             10800   IN      NS      ns1.zdns.google.
+dns.google.             10800   IN      NS      ns3.zdns.google.
+dns.google.             10800   IN      NS      ns2.zdns.google.
+dns.google.             10800   IN      NS      ns4.zdns.google.
